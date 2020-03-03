@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://www.mikeyhilker.com',
     title: `Mikey Hilker`,
     description: `Mikey at his best...`,
     author: `his friends and family`,
@@ -39,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `mikeyhilker`
-      }
+        shortname: `mikeyhilker`,
+      },
     },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
@@ -82,7 +83,15 @@ module.exports = {
       options: {
         trackingId: "UA-60677648-2",
       },
-    }
+    },
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/about/`, `/*`],
+      },
+    },
+    `gatsby-plugin-sitemap`
     // {
     //   resolve: "gatsby-plugin-guess-js",
     //   options: {
