@@ -4,6 +4,8 @@ module.exports = {
     title: `Mikey Hilker`,
     description: `Mikey at his best...`,
     author: `his friends and family`,
+    url: "https://www.mikeyhilker.com", // No trailing slash allowed!
+    image: "../images/mikeyLogo.png", // Path to your image you placed in the 'static' folder
   },
   plugins: [
     {

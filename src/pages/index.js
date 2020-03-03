@@ -12,7 +12,7 @@ export default ({ data }) => {
       <Helmet>
         <html lang="en" />
         <title>Mikey Hilker</title>
-        <description>The home of all things Mikey</description>
+        <meta description="The home of all things Mikey" />
       </Helmet>
       <div>
         <img
