@@ -13,7 +13,7 @@ export default ({ data }) => {
           css={css`
             float: right;
             width: 100;
-            padding: 25px 25px 50px 25px;;
+            padding: 75px;
           `}
           src={logo}
           alt="Mikey"

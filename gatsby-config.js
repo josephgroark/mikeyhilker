@@ -82,6 +82,24 @@ module.exports = {
       options: {
         trackingId: "UA-60677648-2",
       },
-    },
+    }
+    // {
+    //   resolve: "gatsby-plugin-guess-js",
+    //   options: {
+    //     // Find the view id in the GA admin in a section labeled "views"
+    //     GAViewID: `212478457`,
+    //     // Add a JWT to get data from GA
+    //     // jwt: {
+    //     //   client_email: `mikeyhilker@myproject-270012.iam.gserviceaccount.com`,
+    //     //   private_key: `fa75779081bacf0a2c6a5c8bf5a0fc5e1b4ff69a`,
+    //     // },
+    //     minimumThreshold: 0.03,
+    //     // The "period" for fetching analytic data.
+    //     period: {
+    //       startDate: new Date("2020-1-1"),
+    //       endDate: new Date(),
+    //     },
+    //   },
+    // },
   ],
 }
