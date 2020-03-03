@@ -4,16 +4,22 @@ import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 import logo from "../images/mikeyLogo.png"
+import { Helmet } from "react-helmet"
 
 export default ({ data }) => {
   return (
     <Layout>
+      <Helmet>
+        <html lang="en" />
+        <title>Mikey Hilker</title>
+        <description>The home of all things Mikey</description>
+      </Helmet>
       <div>
         <img
           css={css`
             float: right;
             width: 100;
-            padding: 75px;
+            padding: 70px;
           `}
           src={logo}
           alt="Mikey"
@@ -25,7 +31,6 @@ export default ({ data }) => {
         >
           Fiction and fact from Mikeys almanack
         </h1>
-
         <h4
           css={css`
             display: inline-block;

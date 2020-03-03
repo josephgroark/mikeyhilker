@@ -91,7 +91,8 @@ module.exports = {
         precachePages: [`/about/`, `/*`],
       },
     },
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt'
     // {
     //   resolve: "gatsby-plugin-guess-js",
     //   options: {
