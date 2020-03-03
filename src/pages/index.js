@@ -12,6 +12,8 @@ export default ({ data }) => {
         <img
           css={css`
             float: right;
+            width: 100;
+            padding: 25px 25px 50px 25px;;
           `}
           src={logo}
           alt="Mikey"
