@@ -23,7 +23,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.mikeyhilker.com',
     title: `Mikey Hilker`,
-    description: `Mikey at his best...`,
+    description: `There's only one Mikey Hilker!`,
     author: `his friends and family`,
     url: "https://www.mikeyhilker.com", // No trailing slash allowed!
     image: "../images/mikeyLogo.png", // Path to your image you placed in the 'static' folder
