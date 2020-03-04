@@ -3,8 +3,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import logo from '../images/mikey.png';
 
-
-
 export default ({ data }) => (
   <Layout>
     <h1>About {data.site.siteMetadata.title}</h1>
