@@ -1,6 +1,7 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { useStaticQuery, Link, graphql } from "gatsby"
+import SEO from "./seo.js"
 
 import { rhythm } from "../utils/typography"
 export default ({ children }) => {
@@ -24,6 +25,7 @@ export default ({ children }) => {
         padding-top: ${rhythm(1.5)};
       `}
     >
+      <SEO />
       <Link to={`/`}>
         <h3
           css={css`
